@@ -14,7 +14,6 @@ body {
     background-color: whitesmoke;
 }
 
-/* logo */
 
 h1, h2 { 
     font-family: 'Cormorant Garamond', serif;
@@ -23,11 +22,22 @@ h1, h2 {
     color: #252525;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+/* logo */
+
 #logo {
     float: left;
     margin-left: 10px;
     line-height: 75px;
+    
+    
 }
+
+
 
 /* piano nav bar */
 
@@ -36,19 +46,12 @@ h1, h2 {
     line-height: 75px;
 }
 
-#piano {
-    float: left;
-}
 
 #piano h2 {
     text-align: center;
     text-decoration: none;
 }
 
-#piano span {
-    position: absolute;
-    bottom: 0;
-}
 .white-key {
     width: 75px;
     height: 150px;
@@ -117,4 +120,42 @@ h1, h2 {
     width:100%;
     bottom:0;
     text-align:center;
+}
+
+
+
+@media screen and (max-width: 940px) {
+
+    #logo {
+        margin: 0 auto;
+        width: 50%;
+        height: 150px;
+        float: initial;
+    
+    }
+
+    #logo h1 {
+        text-align: center;
+       
+    }
+
+    #menu {
+        float: initial;
+        width: 65%;
+        height: 150px;
+        /* margin: 0 auto; */
+       
+    }
+
+
+    #piano {
+        
+        position: relative;
+        left: 46%;
+        
+        
+    }
+
+
+    
 }
