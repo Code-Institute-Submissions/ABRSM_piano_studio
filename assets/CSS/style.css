@@ -128,11 +128,39 @@ a {
     position:absolute;
     width:100%;
     bottom:0;
-    text-align:center;
-    
+    text-align:center;   
 }
 
+/*hero image*/
 
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/young-student-hero.jpg') no-repeat center center;
+    background-size: cover;
+    animation-name: hero-swipe;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*hero animation*/
+
+@keyframes hero-swipe {
+    from {
+        transform-origin: left;
+        transform: scale(1.7);
+    }
+    to { transform: scale(1);
+    }
+}
+
+/*media queries*/
 
 @media screen and (max-width: 750px) {
 
@@ -141,32 +169,22 @@ a {
         width: 50%;
         height: 150px;
         float: initial;
-    
     }
 
     #logo h1 {
         text-align: center;
-       
     }
 
     #menu {
         float: initial;
         width: 65%;
         height: 150px;
-        /* margin-left: 30px; */
-        /* margin: 0 auto; */
-       
     }
 
-
     #piano {
-
         position: relative;
         right: 18vw; 
     }
-
-
-    
 }
 
 @media screen and (max-width: 700px) {
