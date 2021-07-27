@@ -41,16 +41,21 @@ a {
 
 /* piano nav bar */
 
-#menu {
+#small-nav-bar {
+    display: none;
+}
+
+#piano {
     float: right;
     line-height: 75px;
+    
 }
 
 
-#piano h2 {
+/* #piano h2 {
     text-align: center;
     text-decoration: none;
-}
+} */
 
 .white-key {
     width: 75px;
@@ -124,7 +129,7 @@ a {
 
 
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 750px) {
 
     #logo {
         margin: 0 auto;
@@ -143,19 +148,109 @@ a {
         float: initial;
         width: 65%;
         height: 150px;
+        /* margin-left: 30px; */
         /* margin: 0 auto; */
        
     }
 
 
     #piano {
-        
+
         position: relative;
-        left: 46%;
-        
-        
+        right: 18vw; 
     }
 
 
     
 }
+
+@media screen and (max-width: 700px) {
+    #piano {
+        position: relative;
+        right: 15vw;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    #piano {
+        position: relative;
+        right: 14vw;
+    }
+    
+}
+
+@media screen and (max-width: 625px) {
+    #piano {
+        position: relative;
+        right: 13vw;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    #piano {
+        position: relative;
+        right: 12vw;
+    }
+    
+}
+@media screen and (max-width: 575px) {
+    #piano {
+        position: relative;
+        right: 10vw;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    #piano {
+        position: relative;
+        right: 9vw;
+    }
+    
+}
+@media screen and (max-width: 525px) {
+    #piano {
+        position: relative;
+        right: 8vw;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    #piano {
+        position: relative;
+        right: 7vw;
+    }
+    
+}
+@media screen and (max-width: 475px) {
+    #piano {
+        position: relative;
+        right: 6vw;
+    }
+    
+}
+@media screen and (max-width: 465px) {
+    #piano {
+        display: none;
+    }
+
+    #logo h1 {
+        letter-spacing: initial;
+        font-size: 155%;
+        
+    }
+    
+    #small-nav-bar {
+        display: inline-block;
+        float: right;
+
+    }
+
+    #small-nav-bar li {
+        float: left;
+
+    }
+}
+
+
+
