@@ -160,6 +160,24 @@ a {
     }
 }
 
+/*site info*/
+
+#welcome-section{
+    height: 300px;
+}
+
+#welcome-message {
+    text-align: center;
+    font-size: 200%;
+    margin: 46px 20px 20px 0px;
+}
+
+#welcome-section p {
+    text-align: center;
+    font-size: 180%;
+    padding: 20px;
+} 
+
 /*media queries*/
 
 @media screen and (max-width: 750px) {
@@ -252,6 +270,7 @@ a {
     }
     
 }
+
 @media screen and (max-width: 465px) {
     #piano {
         display: none;
@@ -259,13 +278,11 @@ a {
 
     #logo h1 {
         letter-spacing: initial;
-        font-size: 155%;
-        
+        font-size: 155%;  
     }
     
     #small-nav-bar  {
         display: inline-block;
-
     }
 
     #small-nav-bar li {
@@ -273,8 +290,7 @@ a {
         list-style-type: none;
         letter-spacing: 4px;
         margin-right: 6vw;
-        margin-left: 7vw;
-        
+        margin-left: 7vw;   
     }
 
     #small-nav-bar a {
@@ -293,17 +309,28 @@ a {
     #hero-outer {
         height: 320px;
         width: 100%;
-        overflow: hidden;
-        
+        overflow: hidden;    
     }
-    
-    /*hero animation*/
+
     @keyframes hero-swipe {
         from {
             transform: scale(1);
         }
         to { transform: scale(1);
         }
+    }
+
+    #welcome-message {
+        text-align: center;
+        font-size: 150%;
+        padding: 5%;
+    }
+        
+    #welcome-section p {
+        text-align: center;
+        font-size: 130%;
+        padding: 20px;
+    } 
 }
 
 @media screen and (max-width: 320px) {
@@ -311,6 +338,8 @@ a {
         margin-left: 4vw;
         margin-right: 5vw;
     }
+
+}
 
 
 
