@@ -24,6 +24,11 @@ h1, h2 {
 
 a {
     text-decoration: none;
+    
+}
+
+.active-key {
+    color: #C17B78;
 }
 
 
@@ -52,10 +57,9 @@ a {
 }
 
 
-/* #piano h2 {
-    text-align: center;
-    text-decoration: none;
-} */
+.active {
+    border-bottom: 1px solid #C17B78;
+}
 
 .white-key {
     width: 75px;
@@ -125,6 +129,7 @@ a {
     width:100%;
     bottom:0;
     text-align:center;
+    
 }
 
 
@@ -240,17 +245,31 @@ a {
         
     }
     
-    #small-nav-bar {
+    #small-nav-bar  {
         display: inline-block;
-        float: right;
 
     }
 
     #small-nav-bar li {
         float: left;
-
+        list-style-type: none;
+        letter-spacing: 4px;
+        margin-right: 6vw;
+        margin-left: 7vw;
+        
     }
+
+    #small-nav-bar a {
+        color: #2a2a2a;
+    }
+
 }
+
+@media screen and (max-width: 320px) {
+    #small-nav-bar li {
+        margin-left: 4vw;
+        margin-right: 5vw;
+    }
 
 
 
