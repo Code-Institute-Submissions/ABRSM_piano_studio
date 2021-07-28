@@ -301,9 +301,9 @@ footer {
 /* lessons-main */
 
 #directory-path {
-    position: relative;
-    top: 280px;
-    right: 240px;
+    position: absolute;
+    top: 265px;
+    left: 4.5%;
 }
 #directory-path a {
     text-decoration: none;
@@ -328,8 +328,6 @@ footer {
     line-height: 75px;
     position: absolute;
     top: auto;
-    
-
 }
 
 #song-list ul {
@@ -354,14 +352,14 @@ footer {
 }
 
 #lesson-content {
-    width: 900px;
+    width: 1200px;
     height: 600px;
     overflow-y: scroll;
     /* background-color: #6598C2; */
     box-shadow: 1px 1px 5px #777;
     position: relative;
     left: 300px; bottom: 300px;
-    margin-left: 10%; 
+    margin-left: 20%; 
     padding-right: 10px;
 }
 #lesson-content h1 {
@@ -378,16 +376,13 @@ footer {
 iframe {
     width: 70%;
     display: block;
-
     margin: 0 auto;
 }
-
 
 #practice-exercises {
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
-
 }
 
 #pdf {
@@ -406,15 +401,58 @@ iframe {
     height: auto;
     position: relative;
     bottom: 75px;
-   
 }
-
-
 /*media queries*/
 
+@media screen and (max-width: 2000px) {
+    #lesson-content {
+        width: 1200px;
+        margin-left: 8%; 
+    }
+}
+@media screen and (max-width: 1650px) {
+    #lesson-content {
+        width: 900px;
+        margin-left: 12%; 
+    }
+}
+@media screen and (max-width: 1440px) {
+    #lesson-content {
+        width: 900px;
+        margin-left: 6%; 
+    }
+}
+@media screen and (max-width: 1300px) {
+    #lesson-content {
+        width: 900px;
+        left: 200px;
+        margin-left: 0; 
+    }
+    #song-list {
+        width: 150px;
+        margin-left: 2%;
+    }
+    #directory-path {
+        left: 20%;
+    }
+}
 @media screen and (max-width: 1100px) {
     #ethos {
         width: 100%;
+    }
+    #directory-path {
+        top: 180px;
+        left: 10%;
+    }
+    #song-list {
+        display: none;
+    }
+    #lesson-content {
+        width: 90%;
+        height: auto;
+        overflow-y: initial;
+        position: initial;
+        margin: 200px 5%;
     }
 }
 
@@ -497,6 +535,12 @@ iframe {
     .center-content {
         padding-top: 75px;
 
+    }
+    #lesson-content {
+        margin-top: 100px;
+    }
+    #directory-path {
+        top: 250px;
     }
 }
 @media screen and (max-width: 465px) {
