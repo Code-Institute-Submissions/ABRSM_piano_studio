@@ -254,45 +254,33 @@ footer {
 /*Lessons landing*/
 
 .lesson-container-box {
-    width: 100%;
-    height: 300px;
+    width: 100vw;
+    height: auto;
     display: inline-block;
     margin: 50px 0 50px 20%;
     overflow-x: hidden;
 
 }
 
-.left-lesson-box {
-    height: 100%;
-    width: 20%;
+.center-lesson-box, .right-lesson-box, .left-lesson-box {
+    height: 300px;
+    width: 20vw;
     display: inline-block;
-    background-color: #78C292;
     box-shadow: inset 0 0 10px #777;
     cursor: pointer;
     border-radius: 5px;
-    
-    
+}
+
+.left-lesson-box {
+    background-color: #78C292;
 }
 
 .center-lesson-box {
-    height: 300px;
-    width: 20%;
-    display: inline-block;
     background-color: #C17B78;
-    box-shadow: inset 0 0 10px #777;
-    cursor: pointer;
-    border-radius: 5px;
-    
 }
 
 .right-lesson-box {
-    height: 300px;
-    width: 20%;
-    display: inline-block;
     background-color: #6598C2;
-    box-shadow: inset 0 0 10px #777;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
 .center-content {
@@ -385,6 +373,14 @@ footer {
 
     #footer-box {
         margin-top: 300px;
+    }
+
+    .lesson-container-box {
+        margin-left: 5vw;
+    }
+    .center-lesson-box, .right-lesson-box, .left-lesson-box {
+        display: block;
+        width: 90vw;
     }
 }
 @media screen and (max-width: 465px) {
