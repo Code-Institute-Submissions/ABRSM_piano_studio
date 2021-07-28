@@ -381,6 +381,11 @@ footer {
     .center-lesson-box, .right-lesson-box, .left-lesson-box {
         display: block;
         width: 90vw;
+        height: 200px;
+    }
+    .center-content {
+        padding-top: 75px;
+
     }
 }
 @media screen and (max-width: 465px) {
