@@ -422,6 +422,18 @@ footer {
     }
     
 }
+@media screen and (max-width: 210px) {
+    #small-nav-bar li {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 55%;
+    }
+    #logo h1 {
+        font-size: 80%;
+    }
+    #welcome-section {
+        margin-bottom: 150px;
+    }
 
 
 
