@@ -14,6 +14,10 @@ body {
     background-color: whitesmoke;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 
 h1, h2 { 
     font-family: 'Cormorant Garamond', serif;
@@ -188,44 +192,35 @@ a {
     margin: 0 auto;
 }
 
-#left-box {
+#left-box, #right-box, #center-box {
     height: 300px;
     width: 300px;
     border: 1px solid black;
     display: inline-block;
-    position: relative;
-    left: 175px; bottom: 5px;
-    background-color: #78C292;
-    box-shadow: -5px 5px 10px #777;
     cursor: pointer;
     border-radius: 5px;
+}
+#left-box {
+    position: relative;
+    left: 7.5vw; bottom: 5px;
+    background-color: #78C292;
+    box-shadow: -5px 5px 10px #777;
 }
 
 #center-box {
-    height: 300px;
-    width: 300px;
-    border: 1px solid black;
-    display: inline-block;
     background-color: #C17B78;
     position: relative;
-    left: 150px; top: 5px;
+    left: 6.5vw; top: 5px;
     z-index: 1;
     box-shadow: 0 0 15px #777;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
 #right-box {
-    height: 300px;
-    width: 300px;
-    border: 1px solid black;
-    display: inline-block;
     position: relative;
-    left: 125px; bottom: 25px;
+    left: 5.5vw; bottom: 25px;
     background-color: #6598C2;
     box-shadow: 5px 5px 10px #777;
-    cursor: pointer;
-    border-radius: 5px;
+  
 }
 
 .center-text {
@@ -250,7 +245,15 @@ a {
 
 /*media queries*/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1100px) {
+    #ethos {
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 900px) {
 
     #logo {
         margin: 0 auto;
@@ -261,17 +264,56 @@ a {
 
     #logo h1 {
         text-align: center;
+        letter-spacing: initial;
+        font-size: 155%;  
     }
 
     #menu {
         float: initial;
-        width: 65%;
+        width: 50%;
         height: 150px;
     }
 
     #piano {
-        position: relative;
-        right: 18vw; 
+        display: none;
+    }
+    
+    #small-nav-bar  {
+        display: inline-block;
+    }
+
+    #small-nav-bar li {
+        float: left;
+        list-style-type: none;
+        letter-spacing: 4px;
+        margin: 0 9vw 30px 12vw;
+    }
+
+    #small-nav-bar a {
+        color: #2a2a2a;
+    }
+
+    #hero-image {
+        height: 300px;
+    }
+
+    #hero-outer {
+        height: 320px; 
+    }
+
+    #ethos {
+        width: 100%x;
+    }
+
+    #center-box, #right-box, #left-box {
+        position: initial;
+        box-shadow: inset 0 0 10px #777;
+        cursor: pointer;
+        width: 90%;
+        height: auto;
+        display: block;
+        margin-left: 6vw;
+        border-radius: 0;
     }
 }
 
