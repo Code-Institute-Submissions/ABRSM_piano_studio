@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for piano students who are preparing for ABRSM exams">
+    <meta name="keywords" content="piano, ABRSM, practice piano, piano lessons, practice ABRSM">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>ABRSM Piano Studio</title>
+</head>
+
+<body>
+    <header>
+        <!--logo-->
+        <div id="logo"> 
+            <a href="index.html">
+                <h1>ABRSM Piano Studio</h1>
+            </a>
+        </div>
+        <!--nav bar-->
+        <nav>
+            <ul id="small-nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lesson-landing-page.html" class="active">Lessons</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div id="piano">
+                <div onclick="location.href='index.html';" id="key-1" class="white-key">
+                    <span>Home</span>
+                </div>
+                <div id="key-2" class="black-key"></div>
+                <div onclick="location.href='lesson-landing-page.html';" id="key-3" class="white-key">
+                    <span class="active-key">Lessons</span>
+                </div>
+                <div id="key-4" class="black-key"></div>
+                <div onclick="location.href='sign-up.html';" id="key-5" class="white-key">
+                    <span>About</span>
+                </div>
+            </div>
+        </nav> 
+
+    </header>
+    <section>
+        <div id="directory-path">
+            <a href="lessons.html">Lessons</a> > <span>Grade 1 > Minuet in C</span>
+        </div>
+        <div id="song-list">
+                <h1>Pieces</h1>
+            <ul>
+                <li>List A
+                    <ul>
+                        <a href="grade1-minuet.html"><li class="active">Minuet in C</li></a>
+                    </ul>
+                </li>
+                <li>List B
+                    <ul>
+                        <li>Down by the salley gardens</li>
+                    </ul>
+
+                </li>
+                <li>List C
+                    <ul>
+                        <li>Cockatoo: No. 9</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div id="lesson-content">
+            <h1 id="song-title">Minuet in C</h1>
+            <br>
+            <h2>W.A Mozart</h2>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus tincidunt nisl, in aliquam nisl finibus eget. 
+                Suspendisse cursus ligula quis dignissim porta. Curabitur pulvinar diam quis lorem commodo, non tincidunt lacus viverra. 
+                Sed lacus ex, consequat eu nulla id, ornare dapibus elit. Ut mollis magna mollis congue molestie. Etiam faucibus arcu in sodales placerat.
+                Quisque non tortor sed metus vehicula lacinia vel eu sapien. Phasellus ultricies nibh consequat nisi fringilla laoreet. 
+                Cras porttitor urna egestas mauris pretium, vel cursus massa sagittis. Duis et lobortis tellus. Sed eget suscipit elit. 
+                Praesent malesuada luctus justo. Maecenas nec ullamcorper turpis, gravida semper augue.
+            </p>
+            <br>
+            <br>
+            <!-- <div id="iframe-container"> --><iframe width="560" height="315" src="https://www.youtube.com/embed/lBeOgmwNJcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--</div> -->
+            <br>
+            <br>
+            <img id="practice-exercises" src="/assets/images/Screenshot from 2021-07-24 09-59-17.png" alt="exercises relating to difficult passages in the video">
+            <br>
+            <br>
+            <div id="pdf" onclick="location.href='#';">
+                <h1>Lesson PDF <i class="fas fa-file-alt"></i></h1>
+            </div>
+        </div>
+        <div id="sign-up-box" class="center-text" onclick="location.href='sign-up.html';">
+            <h1 class="big-icon">
+                <i class="fas fa-video"></i>
+            </h1>
+            <h2>Don't miss out</h2>
+            <p>New lessons every week!</p>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-box">
+            <h2 class="center-text">Social Media</h2>
+            <ul id="social-links">
+            <li class="big-icon">
+                <a href="www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li class="big-icon">
+                <a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="big-icon">
+                <a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            </ul>
+        </div>
+    </footer>S
+    <script src="https://kit.fontawesome.com/a52bdf2a95.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
