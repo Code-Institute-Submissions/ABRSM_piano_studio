@@ -243,6 +243,26 @@ a {
     font-size: 500%
 }
 
+/* footer */
+
+footer {
+    height: 300px;
+}
+
+#social-links {
+    text-align: center;
+    padding: 4px;
+}
+
+#social-links > li {
+    display: inline;
+}
+
+#social-links i {
+    color: #2a2a2a;
+}
+
+
 /*media queries*/
 
 @media screen and (max-width: 1100px) {
@@ -316,6 +336,9 @@ a {
         margin-bottom: 30px;
         border-radius: 0;
     }
+    #footer-box {
+        margin-top: 300px;
+    }
 }
 @media screen and (max-width: 465px) {
     #piano {
@@ -387,7 +410,9 @@ a {
     }
     #logo h1 {
         font-size: 120%;
-
+    }
+    #footer-box {
+       
     }
 
 }
