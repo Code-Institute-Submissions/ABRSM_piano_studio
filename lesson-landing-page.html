@@ -21,17 +21,17 @@
         <!--nav bar-->
         <nav>
             <ul id="small-nav-bar">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="lesson-landing-page.html">Lessons</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lesson-landing-page.html" class="active">Lessons</a></li>
                 <li><a href="#">About</a></li>
             </ul>
             <div id="piano">
                 <div onclick="location.href='index.html';" id="key-1" class="white-key">
-                    <span class="active-key">Home</span>
+                    <span>Home</span>
                 </div>
                 <div id="key-2" class="black-key"></div>
                 <div onclick="location.href='lesson-landing-page.html';" id="key-3" class="white-key">
-                    <span>Lessons</span>
+                    <span class="active-key">Lessons</span>
                 </div>
                 <div id="key-4" class="black-key"></div>
                 <div onclick="location.href='sign-up.html';" id="key-5" class="white-key">
@@ -41,39 +41,21 @@
         </nav> 
 
     </header>
-    <section id="hero-outer">
-        <div id="hero-image"></div>
-    </section>
-    <br>
-    <br>
-    <section id="welcome-section">
-        <h2 id="welcome-message">Welcome to my piano studio!</h2>
-        <p>A friendly space to prepare for your ABRSM exam.<p>
-    </section>
-    <section id="ethos">
-        <div id="left-box" class="center-text" onclick="location.href='#';">
-            <h1 class="big-icon">
-                <i class="fab fa-creative-commons-nc-eu"></i>
-            </h1>
-            <h2>Free Content</h2>
-            <p>Music Lessons are expensive enough. My content is 100% free!</p>
+    <!--Lesson Selection boxes-->
+    <section class="lesson-container-box">
+        <div class="left-lesson-box center-text" onclick="location.href='grade1-minuet.html';">
+            <h1 class="center-content">Grade 1</h1>
         </div>
 
-        <div id="center-box" class="center-text" onclick="location.href='lessons.html';" >
-            <h1 class="big-icon">
-                <i class="fas fa-music"></i>
-            </h1>
-            <h2>Get Started</h2>
+        <div class="center-lesson-box center-text" onclick="location.href='#';">
+            <h1 class="center-content">Grade 2</h1>
         </div>
 
-        <div id="right-box" class="center-text" onclick="location.href='sign-up.html';">
-            <h1 class="big-icon">
-                <i class="fas fa-video"></i>
-            </h1>
-            <h2>Regular Content</h2>
-            <p>New lessons every week!</p>
+        <div class="right-lesson-box center-text" onclick="location.href='#';">
+            <h1 class="center-content">Grade 3</h1>
         </div>
     </section>
+
     <footer>
         <div id="footer-box">
             <h2 class="center-text">Social Media</h2>

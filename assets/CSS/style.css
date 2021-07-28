@@ -251,6 +251,66 @@ footer {
     color: #2a2a2a;
 }
 
+/*Lessons landing*/
+
+.lesson-container-box {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    margin: 50px 0 50px 20%;
+    overflow-x: hidden;
+
+}
+
+.left-lesson-box {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    background-color: #78C292;
+    box-shadow: inset 0 0 10px #777;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    
+}
+
+.center-lesson-box {
+    height: 300px;
+    width: 20%;
+    display: inline-block;
+    background-color: #C17B78;
+    box-shadow: inset 0 0 10px #777;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.right-lesson-box {
+    height: 300px;
+    width: 20%;
+    display: inline-block;
+    background-color: #6598C2;
+    box-shadow: inset 0 0 10px #777;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.center-content {
+    margin-top: 130px;
+}
+
+.left-lesson-box:hover {
+    box-shadow: inset 0 0 20px #777;
+}
+
+.center-lesson-box:hover {
+    box-shadow: inset 0 0 20px #777;
+}
+
+.right-lesson-box:hover {
+    box-shadow: inset 0 0 20px #777;
+}
+
 /*media queries*/
 
 @media screen and (max-width: 1100px) {
@@ -407,7 +467,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 210px) {
+@media screen and (max-width: 220px) {
     #small-nav-bar li {
         margin-left: 5vw;
         margin-right: 5vw;
@@ -421,4 +481,19 @@ footer {
     #welcome-section {
         margin-bottom: 150px;
     }
+}
+
+@media screen and (max-width: 190px) {
+    #small-nav-bar {
+        font-size: 45%;
+    }
+    #welcome-section {
+        margin-bottom: 140px
+    }
+    #welcome-section h2 {
+        font-size: 80%;
+    }
+    #welcome-section p {
+        font-size: 80%;
+    } 
 }
