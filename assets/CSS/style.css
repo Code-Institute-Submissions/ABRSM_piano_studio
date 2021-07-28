@@ -316,73 +316,6 @@ a {
         border-radius: 0;
     }
 }
-
-@media screen and (max-width: 700px) {
-    #piano {
-        position: relative;
-        right: 15vw;
-    }
-    
-}
-
-@media screen and (max-width: 650px) {
-    #piano {
-        position: relative;
-        right: 14vw;
-    }
-    
-}
-
-@media screen and (max-width: 625px) {
-    #piano {
-        position: relative;
-        right: 13vw;
-    }
-    
-}
-@media screen and (max-width: 600px) {
-    #piano {
-        position: relative;
-        right: 12vw;
-    }
-    
-}
-@media screen and (max-width: 575px) {
-    #piano {
-        position: relative;
-        right: 10vw;
-    }
-    
-}
-@media screen and (max-width: 550px) {
-    #piano {
-        position: relative;
-        right: 9vw;
-    }
-    
-}
-@media screen and (max-width: 525px) {
-    #piano {
-        position: relative;
-        right: 8vw;
-    }
-    
-}
-@media screen and (max-width: 500px) {
-    #piano {
-        position: relative;
-        right: 7vw;
-    }
-    
-}
-@media screen and (max-width: 475px) {
-    #piano {
-        position: relative;
-        right: 6vw;
-    }
-    
-}
-
 @media screen and (max-width: 465px) {
     #piano {
         display: none;
@@ -400,9 +333,9 @@ a {
     #small-nav-bar li {
         float: left;
         list-style-type: none;
-        letter-spacing: 4px;
-        margin-right: 6vw;
-        margin-left: 7vw;   
+        letter-spacing: 1px;
+        margin-right: 4vw;
+        margin-left: 4vw;   
     }
 
     #small-nav-bar a {
@@ -445,12 +378,23 @@ a {
     } 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 300px) {
     #small-nav-bar li {
-        margin-left: 4vw;
+        margin-left: 5vw;
         margin-right: 5vw;
+        font-size: 75%;
+    }
+    #logo h1 {
+        font-size: 120%;
+
     }
 
+}
+@media screen and (max-width:255) {
+    #welcome-section {
+        margin-bottom: 50px;
+    }
+    
 }
 
 
