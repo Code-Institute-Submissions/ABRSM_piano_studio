@@ -39,6 +39,7 @@ a {
     float: left;
     margin-left: 10px;
     line-height: 75px;
+    width: 30%;
 }
 
 /* piano nav bar */
@@ -48,8 +49,12 @@ a {
 }
 
 #piano {
-    float: right;
+    display: flex;
     line-height: 75px;
+    justify-content: center;
+    position: relative;
+    left: 250px;
+
 }
 
 .active {
@@ -84,45 +89,45 @@ a {
     border-radius: 5px;
 }
 
-#key-1 { 
+/* #key-1 { 
     position: relative;
-}
+} */
 
 #key-2 {
     position: relative;
-    bottom: 75px; right: 31px;
+    right: 25px;
 }
 
 #key-3 {
     position: relative;
-    right: 62px;
+    right: 53px;
 }
 
 #key-4 {
     position: relative;
-    bottom: 75px; right: 93px;
+    right: 75px;
 }
 
 #key-5 {
     position: relative;
-    right: 124px;
+    right: 106px;
 }
 
 #key-6 {
     position: relative;
-    bottom: 75px; right: 155px;
+    right: 125px;
 }
 
 #key-7 {
     position: relative;
-    right: 186px;
-}
+    right: 159px;
+} */
 
 #piano span {
-    position:absolute;
+    /* position:absolute;
     width:100%;
     bottom:0;
-    text-align:center;   
+    text-align:center;    */
 }
 
 /*hero image*/
@@ -177,9 +182,12 @@ a {
 
 #ethos {
     height: 600px;
-    width: 1200px;
+    width: 100%;
     padding-bottom: 40px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #left-box, #right-box, #center-box {
@@ -192,7 +200,7 @@ a {
 }
 #left-box {
     position: relative;
-    left: 7.5vw; bottom: 5px;
+    left: 10px;
     background-color: #78C292;
     box-shadow: -5px 5px 10px #777;
 }
@@ -200,14 +208,14 @@ a {
 #center-box {
     background-color: #C17B78;
     position: relative;
-    left: 6.5vw; top: 5px;
+    top: 30px;
     z-index: 1;
     box-shadow: 0 0 15px #777;
 }
 
 #right-box {
     position: relative;
-    left: 5.5vw; bottom: 25px;
+    right: 10px;
     background-color: #6598C2;
     box-shadow: 5px 5px 10px #777;
 }
@@ -421,6 +429,9 @@ iframe {
         width: 900px;
         margin-left: 6%; 
     }
+    #piano {
+        left: 180px;
+    }
 }
 @media screen and (max-width: 1300px) {
     #lesson-content {
@@ -453,6 +464,9 @@ iframe {
         overflow-y: initial;
         position: initial;
         margin: 200px 5%;
+    }
+    #piano {
+        left: 135px;
     }
 }
 
@@ -505,7 +519,9 @@ iframe {
     }
 
     #ethos {
-        width: 100%x;
+        width: 100%;
+        display: initial;
+        
     }
 
     #center-box, #right-box, #left-box {
@@ -652,4 +668,4 @@ iframe {
     #welcome-section p {
         font-size: 80%;
     } 
-}
+} */
