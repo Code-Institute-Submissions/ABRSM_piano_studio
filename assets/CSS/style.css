@@ -314,6 +314,7 @@ footer {
 
 #lesson-wrapper {
     display: flex;
+    margin-bottom: 50px;
 }
 
 #song-list {
@@ -379,7 +380,7 @@ iframe {
     margin-left: 5%;
 }
 
-#pdf {
+#pdf h1 {
     width: auto;
     height: auto;
     background-color: #6598C2;
