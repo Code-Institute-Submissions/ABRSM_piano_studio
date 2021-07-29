@@ -37,7 +37,7 @@ a {
 
 #logo {
     float: left;
-    margin-left: 10px;
+    margin-left: 30px;
     line-height: 75px;
     width: 30%;
 }
@@ -54,12 +54,19 @@ a {
     justify-content: center;
     position: relative;
     left: 250px;
-
+    margin-bottom: 30px;
 }
 
 .active {
     border-bottom: 1px solid #C17B78;
 }
+
+.align-bottom {
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+}
+
 
 .white-key {
     width: 75px;
@@ -89,10 +96,6 @@ a {
     border-radius: 5px;
 }
 
-/* #key-1 { 
-    position: relative;
-} */
-
 #key-2 {
     position: relative;
     right: 25px;
@@ -121,14 +124,7 @@ a {
 #key-7 {
     position: relative;
     right: 159px;
-} */
-
-#piano span {
-    /* position:absolute;
-    width:100%;
-    bottom:0;
-    text-align:center;    */
-}
+} 
 
 /*hero image*/
 
@@ -163,7 +159,6 @@ a {
 
 #welcome-section{
     height: 150px;
-    margin-bottom: 75px;
 }
 
 #welcome-message {
@@ -175,7 +170,6 @@ a {
 #welcome-section p {
     text-align: center;
     font-size: 180%;
-    padding: 20px;
 } 
 
 /*about section/ethos*/
@@ -262,21 +256,21 @@ footer {
 /*Lessons landing*/
 
 .lesson-container-box {
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: auto;
-    display: inline-block;
-    margin: 50px 0 50px 20%;
-    overflow-x: hidden;
-
+    margin: 300px 0;
+    flex-wrap: wrap;
 }
 
 .center-lesson-box, .right-lesson-box, .left-lesson-box {
     height: 300px;
-    width: 20vw;
-    display: inline-block;
+    width: 300px;
     box-shadow: inset 0 0 10px #777;
     cursor: pointer;
     border-radius: 5px;
+    margin: 10px;
 }
 
 .left-lesson-box {
@@ -475,7 +469,7 @@ iframe {
     #logo {
         margin: 0 auto;
         width: 50%;
-        height: 150px;
+        height: 100px;
         float: initial;
     }
 
@@ -494,16 +488,22 @@ iframe {
     #piano {
         display: none;
     }
-    
+    #small-nav-wrapper {
+        display: flex;
+        justify-content: center;
+    }
     #small-nav-bar  {
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        flex-wrap: wrap;
     }
 
     #small-nav-bar li {
-        float: left;
+        display: inline;
         list-style-type: none;
         letter-spacing: 4px;
-        margin: 0 9vw 30px 12vw;
+        margin: 5% 10%;   
     }
 
     #small-nav-bar a {
@@ -520,38 +520,26 @@ iframe {
 
     #ethos {
         width: 100%;
-        display: initial;
-        
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap; 
     }
 
     #center-box, #right-box, #left-box {
+     position: initial;
+     width: 90%;
+     margin: 20px;
+    }
+    .center-lesson-box, .right-lesson-box, .left-lesson-box {
         position: initial;
-        box-shadow: inset 0 0 10px #777;
-        cursor: pointer;
         width: 90%;
-        height: auto;
-        display: block;
-        margin-left: 6vw;
-        margin-bottom: 30px;
-        border-radius: 0;
+        margin: 20px;
     }
 
     #footer-box {
-        margin-top: 300px;
+        margin-top: 100px;
     }
 
-    .lesson-container-box {
-        margin-left: 5vw;
-    }
-    .center-lesson-box, .right-lesson-box, .left-lesson-box {
-        display: block;
-        width: 90vw;
-        height: 200px;
-    }
-    .center-content {
-        padding-top: 75px;
-
-    }
     #lesson-content {
         margin-top: 100px;
     }
@@ -563,26 +551,13 @@ iframe {
     #piano {
         display: none;
     }
+    #logo {
+        margin-bottom: 30px;
+    }
 
     #logo h1 {
         letter-spacing: initial;
         font-size: 155%;  
-    }
-    
-    #small-nav-bar  {
-        display: inline-block;
-    }
-
-    #small-nav-bar li {
-        float: left;
-        list-style-type: none;
-        letter-spacing: 1px;
-        margin-right: 4vw;
-        margin-left: 4vw;   
-    }
-
-    #small-nav-bar a {
-        color: #2a2a2a;
     }
 
     #hero-image {
@@ -612,12 +587,15 @@ iframe {
         text-align: center;
         font-size: 150%;
         padding: 5%;
+        font-size: 120%;
     }
         
     #welcome-section p {
         text-align: center;
         font-size: 130%;
         padding: 20px;
+        margin-bottom: 30px;
+        font-size: 90%;
     } 
 }
 
@@ -668,4 +646,4 @@ iframe {
     #welcome-section p {
         font-size: 80%;
     } 
-} */
+} 
