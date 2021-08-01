@@ -411,6 +411,30 @@ iframe {
     cursor: pointer;
 }
 
+/*about page*/
+#head-shot-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+#head-shot {
+    width: 225px;
+    height: 175px;
+    border-radius: 50%;
+    border: 3px solid #6598C2;
+}
+
+#about-info {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#about-info p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /*media queries*/
 
 @media screen and (max-width: 1440px) {
