@@ -185,6 +185,16 @@ a {
     align-items: center;
 }
 
+#ethos a {
+    text-decoration: underline;
+    color: #2a2a2a;
+}
+
+#ethos a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
 #left-box, #right-box, #center-box {
     height: 300px;
     width: 300px;
@@ -309,7 +319,7 @@ footer {
 }
 
 .center-content {
-    margin-top: 130px;
+    margin-top: 90px;
 }
 
 .left-lesson-box:hover {
@@ -387,8 +397,13 @@ footer {
     background-color: #C17B78;
 }
 
+#lesson-content h2, h3, figure {
+    text-align: center;
+}
+
 #lesson-content p {
     line-height: 20px;
+    text-align: center;
 }
 
 iframe {
@@ -412,10 +427,12 @@ iframe {
 }
 
 /*about page*/
+
 #head-shot-wrapper {
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    
 }
 #head-shot {
     width: 225px;
@@ -426,13 +443,23 @@ iframe {
 
 #about-info {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     text-align: center;
 }
 #about-info p {
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+#sub-link {
+    color: #C17B78;
+    font-size: large;
+}
+
+#sub-link:hover {
+    color: #78C292;
 }
 
 /*media queries*/
@@ -606,6 +633,10 @@ iframe {
 
     #logo h1 {
         font-size: 120%;
+    }
+    #head-shot {
+        width: 130px;
+        height: 180px;
     }
 }
 
