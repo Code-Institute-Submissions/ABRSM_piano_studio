@@ -68,8 +68,6 @@ a {
     bottom: 0;
 }
 
-
-
 .white-key {
     width: 75px;
     height: 150px;
@@ -96,6 +94,10 @@ a {
     background-color: black;
     z-index: 1;
     border-radius: 5px;
+}
+
+#key-1 { 
+    position: relative;
 }
 
 #key-2 {
