@@ -552,13 +552,14 @@ iframe {
      position: initial;
      width: 90%;
      margin: 20px;
+    
     }
     .center-lesson-box, .right-lesson-box, .left-lesson-box {
         position: initial;
         width: 90%;
         margin: 20px;
     }
-
+    
     #footer-box {
         margin-top: 100px;
     }
@@ -571,11 +572,17 @@ iframe {
     }
 
     #lesson-content {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: 0 5%;
         overflow-y: initial;
     }
+    .big-example-pic {
+        width: 90vw;
+    }
+}
+
+    
 }
 @media screen and (max-width: 465px) {
     #piano {
@@ -632,6 +639,12 @@ iframe {
     }
 }
 
+@media screen and (max-width: 365px) {
+    #small-nav-bar li {
+        font-size: 65%;
+    }
+}
+
 @media screen and (max-width: 300px) {
     #small-nav-bar li {
         margin-left: 5vw;
@@ -666,7 +679,7 @@ iframe {
     }
 
     #welcome-section {
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
 }
 
