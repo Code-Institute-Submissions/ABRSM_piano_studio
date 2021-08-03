@@ -53,6 +53,7 @@ Lesson Landing Page
 Lesson page side nav bar & directory folder 
 - The sidebar gives a good layoutand acces to any lesson the user wishes to navigate too. The directory also tells the user exactly where they are, this also links back to the lesson landing page. Very useful for smaller screen width when the side nav bar will not be displayed.
 <img src="assets/images/lesson-side.png">
+
 Lesson main content
 - The layout will be the same on all future lessons. There is information about the composer, then a video of the piece, underneath there are examples and exercises to practice, finally a link to an external pdf. It has its own scrollbar to keep the content the same length as the sidebar. 
 <img src="assets/images/content-up.png">
@@ -63,6 +64,13 @@ Next & Previous buttons
 About page
 - The about page is very simple and has the bulk of text on the website. It is meant to give a friendly introduction to the teacher with profile pic and info. It is also a brief summary of exam requirements and an external link to the official website of ABRSM. The language is kept as simple as possible in case kids want to read it but it is primarily meant for adults, especially parents.
 <img src="assets/images/about.png">
+
+Features left to impliment 
+
+- livestream page. It is a good way to keep content relavent on the site but is too much work when the core video lessons are not completed. To record every song at a minimum of 3 a week would take most of the year. 
+- interactive nav bar. I would like to have burger icons and nav bars that can expand when needed to be used but I dont have the skills for this yet. This would make the lesson page much easier to navigate although I feel I have done a good job at making it accesible for the time being. When content grows this would be essential. 
+-video exchange and sign ins. This would be a great way for students to interact with the teacher. Upload their own videos and get a reply from the teacher. It is just not feasable at the moment because I dont know how to make a site that students can log into and ahve access to, let alone upload videos. 
+
 
 
 
