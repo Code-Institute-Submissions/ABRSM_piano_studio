@@ -444,9 +444,8 @@ iframe {
 }
 
 #next-previous {
-    width: 20%;
     position: relative;
-    left: 80%; bottom: 50px;
+    left: 70%; bottom: 50px;
 }
 .next {
     text-decoration: none;
@@ -454,8 +453,14 @@ iframe {
     background-color: #6598C2;
     color: white;
     border-radius: 3%;
-    
-
+  }
+  
+.previous {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 3%;
   }
   
   .next:hover {
@@ -589,8 +594,6 @@ iframe {
         margin: 20px;
     }
 
-
-    
     #footer-box {
         margin-top: 100px;
     }
@@ -610,6 +613,9 @@ iframe {
     }
     .big-example-pic {
         width: 90vw;
+    }
+    #next-previous {
+        left: 40%;
     }
 }
 
@@ -668,7 +674,7 @@ iframe {
         top: 220px;
     }
     #next-previous {
-        font-size: small;
+        left: 30%;
     }
 }
 
@@ -696,9 +702,7 @@ iframe {
         width: 130px;
         height: 180px;
     }
-    #next-previous {
-        width: 10%;
-    }
+   
 }
 
 @media screen and (max-width:255) {
@@ -721,6 +725,7 @@ iframe {
     #welcome-section {
         margin-bottom: 50px;
     }
+  
 }
 
 @media screen and (max-width: 190px) {
