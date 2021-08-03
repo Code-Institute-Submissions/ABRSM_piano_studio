@@ -347,7 +347,6 @@ footer {
     text-decoration: underline;
 }
 
-
 .exam-info {
     text-align: center;
 }
@@ -365,7 +364,7 @@ footer {
 
 #lesson-wrapper {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #song-list {
@@ -439,10 +438,30 @@ iframe {
 #pdf h1 {
     width: auto;
     height: auto;
-    background-color: #6598C2;
+    background-color: #C17B78;
     color: #2a2a2a;
     cursor: pointer;
 }
+
+#next-previous {
+    width: 20%;
+    position: relative;
+    left: 80%; bottom: 50px;
+}
+.next {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #6598C2;
+    color: white;
+    border-radius: 3%;
+    
+
+  }
+  
+  .next:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
 
 /*about page*/
 
@@ -648,11 +667,18 @@ iframe {
     #directory-path {
         top: 220px;
     }
+    #next-previous {
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 365px) {
     #small-nav-bar li {
         font-size: 65%;
+    }
+    #next-previous {
+        font-size: 40%;
+        padding: 5px;
     }
 }
 
@@ -669,6 +695,9 @@ iframe {
     #head-shot {
         width: 130px;
         height: 180px;
+    }
+    #next-previous {
+        width: 10%;
     }
 }
 
