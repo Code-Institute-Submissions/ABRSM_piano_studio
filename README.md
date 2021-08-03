@@ -1,104 +1,71 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ABRSM Piano Studio
 
-Welcome Daniel Callaghan,
+This site is for piano students preparing for ABRSM exams. The ABRSM is an awarding body that holds graded music exams for many instruments. Every year over 600000 students sit these exams and over 120000 of these are piano students. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+Students are required to prepare 3 pieces on piano for their exam. This website deals with this requirement.
 
-## Gitpod Reminders
+Piano students can use this site to watch a profesional musician play the pieces. See correct fingerings and get access to helpful tips and pdfs of the lessons for free. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The site is aimed at all ages. Children and teenagers make up a lot of ABRSM students so I tried to keep text to a minimum when in order to keep the site uncluttered and keep navigating the website easy.
 
-`python3 -m http.server`
+The site deals with the practical requirment that students must prepare 3 pieces. It is worth 60% of the exam. In terms of an MVP to launch the site I determined the site need at least 3 songs in one of the grades to actually be useful. 
 
-A blue button should appear to click: _Make Public_,
+It is a living breathing site as to update the site with at least 3 videos a week would take almost a year. I am happy the structure of the lesson page is ready so the site owner can continue to update the site by themselves.
+<br>
+<br>
+<img src="assets/images/am-i-responsive.png">
+<br>
+<br>
 
-Another blue button should appear to click: _Open Browser_.
+# Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Existing Features
 
-A blue button should appear to click: _Make Public_,
+ Nav Bar 
+- In keeping with the theme of the website the nav bar is in the style of a piano. Each white key is a fully functional navigation link. It is the same on each page and will allow users to easily navigate throughout the site. It links to the home page, lesson landing page and the about page. 
+<br>
+<br>
+<img src="assets/images/pno-nav.png">
+At smaller screenwidths, the piano makes the nav bar look to cluttered, and so a new smaller, sleeker nav bar will appear in its place to compensate for this. It is also fully functional and provides the same links. It is the same on each page. 
+<img src="assets/images/nav-small.png">
 
-Another blue button should appear to click: _Open Browser_.
+<br>
+<br>
+Home page image 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The home page hero image has a great animation that I feel shows the philosophy of the website very well. It will begin on the piano and gradually move to the right to focus on the student. I did not like this effect so much at smaller screen widths, and so on mobile devices the image is static. 
+<img src="assets/images/young-student-hero.jpg">
+<br>
+<br>
+Site philosophy and ethos section
+- This section of the home page uses 3 boxes to convey basic themes of the website. The center box is a dark pink taken from the hero image. The young girls pink top. I put this color into adobe color wheeel and selected triad to get another 2 complimentary colors. The left is a blue and the right is a green.
+- The information in the left box links to the about section. The right box links to the lesson landing page. The center box lets the user subscribe for notifications on future lessons. 
+- The 3 boxes aim to reinforce the idea that the content is free and regular. It also allows the user to navigate without scrolling back up. They are responsive.
+<img src="assets/images/ethos.png">
+Footer
+- The footer section is very straightforward and includes linkes to youtube, facebook and twitter. It aims to give the teacher on the website more exposure on the internet. 
+<img src="assets/images/footer.png">
 
-To log into the Heroku toolbelt CLI:
+Lesson Landing Page
+- information is provided for those students in the event they dont know about the structure of the exam. It is a link to the about section. I found this the best way to keep as much of the website clutter free from too much text for younger users. It also gives anothe opportunity to subscribe by linking back to the box on the home page.
+- 3 boxes with the same colors already seen on the homepage with links to the grade and specific song list to make navigating to the page the student needs easier and as painless as possible. There is a hover shadow effect on these boxes also. For color consistancy I added 2 yet to be published lessons. In the future it would be a good idea to keep this consistant by having boxes that say coming soon, it also reinforces the idea that content is regular, the site is living, and that students should subscribe. 
+<img src="assets/images/lesson-landing.png">
+Lesson page side nav bar & directory folder 
+- The sidebar gives a good layoutand acces to any lesson the user wishes to navigate too. The directory also tells the user exactly where they are, this also links back to the lesson landing page. Very useful for smaller screen width when the side nav bar will not be displayed.
+<img src="assets/images/lesson-side.png">
+Lesson main content
+- The layout will be the same on all future lessons. There is information about the composer, then a video of the piece, underneath there are examples and exercises to practice, finally a link to an external pdf. It has its own scrollbar to keep the content the same length as the sidebar. 
+<img src="assets/images/content-up.png">
+<img src="assets/images/content-lower.png">
+Next & Previous buttons 
+- simple responsive buttons meant to make navigation easier especially at smaller screen width when lesson side bar is gone. Also keeps coloring consistent. 
+<img src="assets/images/next-pre.png">
+About page
+- The about page is very simple and has the bulk of text on the website. It is meant to give a friendly introduction to the teacher with profile pic and info. It is also a brief summary of exam requirements and an external link to the official website of ABRSM. The language is kept as simple as possible in case kids want to read it but it is primarily meant for adults, especially parents.
+<img src="assets/images/about.png">
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
