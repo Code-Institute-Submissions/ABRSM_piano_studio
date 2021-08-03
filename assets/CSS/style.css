@@ -467,6 +467,10 @@ iframe {
     background-color: whitesmoke;
     color: black;
   }
+  
+  .previous:hover {
+      color: white;
+  }
 
 /*about page*/
 
