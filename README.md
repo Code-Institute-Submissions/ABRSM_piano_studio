@@ -106,12 +106,44 @@ so that I can make sure what I am studying is in fact relevant.
 As a student I want short videos, concise lessons so the point of the lesson does not get lost in
 endless lectures by the teacher.
 
-As a student I want more than just what to play, I want exercises to hepl me play the pieces
+As a student I want more than just what to play, I want exercises to help me play the pieces
 better.
+
+As a parent I want a safe space for my child to learn so that I don’t worry they are looking at
+inappropriate content or listening to foul language.
+
+As a parent I want my child to have access to free content from a nice teacher as music lessons
+are extremely expensive.
+
+As a teacher I want a website to recommend to my students that is relavent to what i teach in
+class so that they will have different perspectives, structured practice time and a better chance
+of passing which will reflect positively on my own teaching experience.
+
+As a teacher I want ideas that i can bring to my own lessons because i dont always have time to
+prepare.
+
+As a music school we want a reliable, living website we can refer students to so that they can
+have extra practice at home so that they will get help passing exams which will reflect well on
+our school.
 
 ### Outcome
 
-I feel as if every one of these needs is met on the websites down to the lesson content itself. There are constant reminders to subscribe to stay up to date and the lessons are relavent to the current syllabus. There are also pdfs, short videos and the content is 100% FREE. 
+I feel as if every one of these needs is met on the websites down to the lesson content itself. There are constant reminders to subscribe to stay up to date and the lessons are relavent to the current syllabus. There are also pdfs, short videos and the content is 100% free with plans to be continuosly updated in the future. 
+
+# Testing 
+
+The hardest thing to get working on this site was the boxes and piano nav bar. It was very difficult to have everything centered and responsive. I discovered flex box and it really helped with this. Also having different layouts for the site on mobile and tablet was a lot of extra work but really helped keep the site consistantly smooth and responsive. 
+
+I had to include a lot of media queries to get the site responsive enough but i feel it was worth the effort. 
+
+The piano nav bar had a bug that was very difficult to fix. basically the whitespace to the right of it was clickable and would't click back to the home page. I managed to fix this by making the home button position relative even though I didn't move it. 
+
+There was also a lot of whitespace left over on the right hand side of the website. I dealt with this by hiding the over flow. It made positioning other elements at lower screen widths very tedious and difficult but it was worth the effort as the site is very responsive now. 
+
+The site was tested on Google Chrome - Mozilla Firefox - Safari - Opera - All without issue. 
+
+
+
 
 
 
