@@ -69,11 +69,49 @@ Features left to impliment
 
 - livestream page. It is a good way to keep content relavent on the site but is too much work when the core video lessons are not completed. To record every song at a minimum of 3 a week would take most of the year. 
 - interactive nav bar. I would like to have burger icons and nav bars that can expand when needed to be used but I dont have the skills for this yet. This would make the lesson page much easier to navigate although I feel I have done a good job at making it accesible for the time being. When content grows this would be essential. 
--video exchange and sign ins. This would be a great way for students to interact with the teacher. Upload their own videos and get a reply from the teacher. It is just not feasable at the moment because I dont know how to make a site that students can log into and ahve access to, let alone upload videos. 
+- video exchange and sign ins. This would be a great way for students to interact with the teacher. Upload their own videos and get a reply from the teacher. It is just not feasable at the moment because I dont know how to make a site that students can log into and ahve access to, let alone upload videos. 
+
+# Wireframes
+
+I am very happy that most of what I had in mind for the wireframes came to fruition. The advice from my mentor Precious was my sign up page was actually a subscribe feature and that I should move it to the home page. I also only needed an email input for that. I feel this change really hekped the site and made the idea I had for the 3 boxes on the homepage even more impactful. 
+
+The old sign up page became an about section which I think is also very important for the website as it allowed me to keep the rest of the site clutter free from text which I think will help younger users navigate the site a lot easier. 
+
+Here are links to the wireframes:
+
+[Desktop](assets/pdf/project_1_computer.pdf)
+
+[Tablet](assets/pdf/project_1_tablet.pdf)
+
+[Phone](assets/pdf/practice_pieces_phone.pdf)
 
 
 
+# User Stories 
 
+## Students
+
+As a student, I want to find relevant material to what I am studying, so that I can get help
+preparing for my exam.
+
+As a student, I want access to 100% free good quality content, so that I can continue to take
+lessons with my teacher.
+
+As a student I want access to pdf’s of any exercises recommended to me by the site so that I
+can print them and practice in my own time.
+
+As a student I want to be kept up to date about new releases and changes in the exam syllabus
+so that I can make sure what I am studying is in fact relevant.
+
+As a student I want short videos, concise lessons so the point of the lesson does not get lost in
+endless lectures by the teacher.
+
+As a student I want more than just what to play, I want exercises to hepl me play the pieces
+better.
+
+### Outcome
+
+I feel as if every one of these needs is met on the websites down to the lesson content itself. There are constant reminders to subscribe to stay up to date and the lessons are relavent to the current syllabus. There are also pdfs, short videos and the content is 100% FREE. 
 
 
 
