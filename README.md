@@ -138,7 +138,7 @@ I had to include a lot of media queries to get the site responsive enough but i 
 
 The piano nav bar had a bug that was very difficult to fix. basically the whitespace to the right of it was clickable and would't click back to the home page. I managed to fix this by making the home button position relative even though I didn't move it. 
 
-There was also a lot of whitespace left over on the right hand side of the website. I dealt with this by hiding the over flow. It made positioning other elements at lower screen widths very tedious and difficult but it was worth the effort as the site is very responsive now. 
+There was also a lot of whitespace left over on the right hand side of the website. I dealt with this by hiding the over flow. It made positioning other elemgiraffeacademy@gmail.coments at lower screen widths very tedious and difficult but it was worth the effort as the site is very responsive now. 
 
 The site was tested on Google Chrome - Mozilla Firefox - Safari - Opera - All without issue. 
 
@@ -157,6 +157,56 @@ CSS
 No errors on W3C jigsaw validator
 
 <img src="assets/images/CSS-validator.png">
+
+
+## Unfixed bugs 
+To my knowlede everything works as it should. The next and previous buttons, small screen width nav bar and logo do not move so smoothly in dev tools as you make the screen width lower and lower - I had to kind of do this through lots of media queries - its not preety but it works so it will nag at me until I can do those kinds of things properly but I intend to maintain the site in the future after it has been assessed. 
+
+# Deployment 
+
+The site is deployed on git hub pages. The link is here:
+
+https://xiaoniuniu89.github.io/ABRSM_piano_studio/
+
+The steps for deploying the site are as follows. 
+
+- In the github repository go to the settins tab. 
+- on the side navigation bar scroll to pages (second last option)
+- under source select main and click save 
+- The page will refresh with a blue background messaged that says the page is deployed and provide a link. If the message reads ready to be deployed, wait a few minutes and refresh the page. 
+
+# Credits 
+- My mentor Precious gave me such good advice on this project. His advice about wireframes is a habit I will bring into future projects. His advice about checking for responsivness as soon as I code a new feature was invaluable and saved soo many potential problems. 
+
+- My wife Chenyang (CC) for playing the piano, recording the videos and coming up with some simple exercises for the pieces. I'm happy the content is personal and made with love. She also switched to full time career for our two year old son so I could have time to put work into the course and website and without her I could not do this at all. 
+
+## Asthetics 
+
+The feel and look of the site was influenced a lot from the love running project (home page and hero image idea) and also from an educational site by a man named Mike Dane. I was using his site for lessons before I started with code institute to get my head around some of these concepts. His layout design for all of his lessons really influenced me and I wanted something along the same line for my website. 
+
+https://www.mikedane.com
+
+
+## Content 
+- The next and previous buttons were written by following a lesson from w3 schools https://www.w3schools.com/howto/howto_css_next_prev.asp
+- I learnt about and implimented the flexbox features on my site from a Mike Dane lesson https://www.mikedane.com/web-development/css/flexbox/
+
+
+## Media
+
+All videos and pdfs and images for the lessons were shot/made by my wife or myself and edited by me also. The scores were all written by either myself or my wife. 
+
+Applications used: 
+
+- [Chordie](https://www.chordieapp.com/) for piano digital display 
+- Imovie to edit videos 
+- [musescore](https://musescore.org/) For writting music scores
+- https://www.iloveimg.com/crop-image for cropping images 
+
+The hero image on the homepage was taken from the unsplash website.
+
+https://unsplash.com/photos/K7HEuGfJFIM
+
 
 
 
