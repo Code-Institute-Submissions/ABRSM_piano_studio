@@ -38,11 +38,15 @@ Home page image
 <br>
 <br>
 Site philosophy and ethos section
+
+
 - This section of the home page uses 3 boxes to convey the basic ethos of the website. The center box is a dark pink taken from the hero image. I put this color into the adobe color wheel and selected triad to get another 2 complimentary colors. The left is a green and the right is a blue.
 - The information in the left box links to the about section. The right box links to the lesson landing page. The center box lets the user subscribe for notifications on future lessons. 
 - The 3 boxes aim to reinforce the idea that the content is free and regular. It also allows the user to navigate without scrolling back up. They are responsive.
 <img src="assets/images/ethos.png">
 Footer
+
+
 - The footer section is very straightforward and includes links to youtube, Facebook, and Twitter. It aims to give the teacher on the website more exposure on the internet. 
 <img src="assets/images/footer.png">
 
@@ -50,7 +54,11 @@ Lesson Landing Page
 - information is provided for students that are unfamiliar with the exam structure. It is a link to the about section. I found this the best way to keep as much of the website clutter-free from too much text for younger users. It also gives another opportunity to subscribe by linking back to the box on the home page.
 - 3 boxes with the same colors already seen on the homepage with links to the grade and specific song list to make navigating to the page the student needs easier and as painless as possible. There is a hover shadow effect on these boxes also. For color consistency, I added 2 yet to be published lessons. In the future it would be a good idea to keep this consistent by having boxes that say coming soon, which also reinforces the idea that content is regular, the site is living, and that students should subscribe. 
 <img src="assets/images/lesson-landing.png">
-Lesson page side nav bar & directory folder 
+Lesson page 
+
+side nav bar & directory folder 
+
+
 - The sidebar gives a good layout and access to any lesson the user wishes to navigate to. The directory also tells the user exactly where they are, this also links back to the lesson landing page. Very useful for smaller screen width when the side navbar will not be displayed.
 <img src="assets/images/lesson-side.png">
 
@@ -59,10 +67,13 @@ Lesson main content
 <img src="assets/images/content-up.png">
 <img src="assets/images/content-lower.png">
 Next & Previous buttons 
+
+
 - simple responsive buttons meant to make navigation easier especially at smaller screen widths when the lesson sidebar is gone. Also keeps coloring consistent. 
 <img src="assets/images/next-pre.png">
 About page
-- The about page is very simple and has the bulk of text on the website. It is meant to give a friendly introduction to the teacher with profile pic and info. It also has a summary of exam requirements and an external link to the official website of ABRSM. The language is kept as simple as possible in case kids want to read it but it is primarily meant for adults, especially parents.
+
+The about page is very simple and has the bulk of text on the website. It is meant to give a friendly introduction to the teacher with profile pic and info. It also has a summary of exam requirements and an external link to the official website of ABRSM. The language is kept as simple as possible in case kids want to read it but it is primarily meant for adults, especially parents.
 <img src="assets/images/about.png">
 
 Features left to implement 
