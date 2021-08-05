@@ -158,10 +158,10 @@ The site was tested on Google Chrome - Mozilla Firefox - Safari - Opera - All wi
 HTML 
 
 No errors on W3 validator
-- [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2Fpiano_practice_studio%2F)
-- [Lesson Landing](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2Fpiano_practice_studio%2Flesson-landing-page.html) 
-- [Lesson](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2Fpiano_practice_studio%2Fgrade1-minuet.html)
-- [About](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2Fpiano_practice_studio%2Fabout.html)
+- [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Findex.html)
+- [Lesson Landing](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Flesson-landing-page.html) 
+- [Lesson](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Fgrade1-minuet.html)
+- [About](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Fabout.html)
 
 CSS
 
