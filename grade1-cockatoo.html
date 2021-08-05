@@ -18,7 +18,8 @@
                 <h1>ABRSM Piano Studio</h1>
             </a>
         </div>
-        <!--nav bar-->
+
+        <!-- small nav bar to appear at smaller screen width-->
         <nav>
             <div id="small-nav-wrapper">
                 <ul id="small-nav-bar">
@@ -27,6 +28,8 @@
                     <li><a href="about.html">About</a></li>
                 </ul>
             </div>
+
+             <!--responsive piano nav bar to appear at larger screen width-->
             <div id="piano">
                 <div onclick="location.href='index.html';" id="key-1" class="white-key">
                     <div class="align-bottom"><a style="padding-left: 10px;" href="index.html">Home</a></div>
@@ -43,12 +46,14 @@
         </nav> 
     </header>
 
+            <!--Main lesson content-->
         <section>
             <div id="directory-path">
                 <a href="lesson-landing-page.html">Lessons</a> > <span>Grade 1 > Cockatoo</span>
             </div>
                 <div id="lesson-outer">
                     <div id="lesson-wrapper">
+                        <!--Side nav bar for pieces. It will not display at lower screen width-->
                         <div id="song-list">
                                 <h1>Pieces</h1>
                             <ul>
@@ -70,7 +75,9 @@
                                 </li>
                             </ul>
                         </div>
-                    
+
+                        <!--Main lesson content. An overflow scrollbox is used for larger screens to keep height inline with side nav bar.
+                        The scrollbox will disapear along with the nav side bar at lower screen width as there will be no height requirement for content -->
                         <div id="lesson-content">
                             <h1 id="song-title">Cockatoo</h1>
                             <br>
@@ -140,6 +147,8 @@
                     </div>
                 </div>
         </section>
+
+        <!-- footer section containing social media links-->
     <footer>
         <div id="footer-box">
             <ul id="social-links">
