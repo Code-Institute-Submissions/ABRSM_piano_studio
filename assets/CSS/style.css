@@ -571,6 +571,10 @@ iframe {
         height: 320px; 
     }
 
+    #welcome-section p {
+        font-size: medium;
+    }
+
     #ethos {
         width: 100%;
         height: auto;
@@ -615,7 +619,15 @@ iframe {
     }
 }
 
-
+@media screen and (max-width: 500px) {
+    #welcome-message {
+        text-align: center;
+        font-size: 150%;
+        padding: 5%;
+        font-size: 120%;
+        margin-top: 10px;
+    }
+} 
 @media screen and (max-width: 465px) {
     #piano {
         display: none;
@@ -654,18 +666,14 @@ iframe {
 
     #welcome-message {
         text-align: center;
-        font-size: 150%;
         padding: 5%;
-        font-size: 120%;
     }
         
     #welcome-section p {
         text-align: center;
-        font-size: 130%;
-        padding: 20px;
-        margin-bottom: 30px;
-        font-size: 90%;
+        font-size: 80%;
     } 
+    
     #directory-path {
         top: 220px;
     }
