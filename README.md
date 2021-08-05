@@ -156,7 +156,7 @@ CSS
 
 No errors on the W3C jigsaw validator
 
-<!-- <img src="assets/images/CSS-validator.png"> -->
+<img src="assets/images/css-validator.png">
 
 
 ## Unfixed bugs 

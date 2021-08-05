@@ -94,7 +94,7 @@ header {
     width: 50px;
     height: 75px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid;
     background-color: black;
     z-index: 1;
     border-radius: 5px;
