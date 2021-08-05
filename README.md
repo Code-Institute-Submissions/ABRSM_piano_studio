@@ -112,7 +112,7 @@ lessons with my teacher." - All content is 100% free and makes no attempt to coa
 "As a student, I want access to PDFs of lessons so I can print them and practice in my own time." - All lessons published have an external pdf to the lesson content.
 
 "As a student, I want to be kept up to date about new releases and changes in the exam syllabus
-so that I can make sure what I am studying is relevant." - Every page presents students to subscribe to be kept up to date with the site with a simple email input.
+so that I can make sure what I am studying is relevant." -  There are many places throughout the site reminding students to subscribe to be kept up to date with a simple email input.
 
 "As a student, I want short videos, concise lessons so the point of the lesson does not get lost in
 endless lectures by the teacher." Videos are kept short and to the point. They can be rewatched as often as needed. Text is kept to a minimum in an effort to be short and succint. 
