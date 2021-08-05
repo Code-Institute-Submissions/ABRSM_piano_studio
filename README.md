@@ -171,7 +171,7 @@ No errors on the W3C jigsaw validator
 
 
 ## Unfixed bugs 
-To my knowledge, everything works as it should. The next and previous buttons, small screen width nav bar, and logo do not move so smoothly in dev tools as you make the screen width lower and lower - I had to do this through lots of media queries - it's not pretty but it works, but it will nag at me until I can do those kinds of things properly. In any case, I intend to maintain the site in the future after it has been assessed. 
+To my knowledge, everything works as it should. The next and previous buttons, small screen width nav bar, and logo do not move so smoothly in dev tools as you make the screen width lower and lower - I had to do this through lots of media queries - In any case, I intend to maintain the site in the future after it has been assessed with any new skills I gain. 
 
 # Deployment 
 
@@ -193,9 +193,9 @@ The steps for deploying the site are as follows.
 
 ## Aesthetics 
 
-The feel and look of the site was influenced a lot by the love running project (home page and hero image idea) and also from an educational site by a man named Mike Dane. I was using his site for lessons before I started with code institute to get my head around some of these concepts. His layout design for all of his lessons influenced me a lot and I wanted something along the same line for my website. 
+The feel and look of the site was influenced a lot by the love running project (home page and hero image idea) and also from an educational site by a man named Mike Dane. His layout of his lesson pages influenced my site alot.
 
-https://www.mikedane.com
+https://www.mikedane.com/web-development/html/choosing-a-text-editor/
 
 
 ## Content 
