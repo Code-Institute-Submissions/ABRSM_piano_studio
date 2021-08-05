@@ -103,43 +103,39 @@ Here are links to the wireframes:
 
 ## Students
 
-As a student, I want to find relevant material for what I am studying, so that I can get help
-preparing for my exam.
+"As a student, I want to find relevant material for what I am studying, so that I can get help
+preparing for my exam." - The lesson content is up to date with current 2021/2022 syllabus. New content to be added on a weekly basis. 
 
-As a student, I want access to 100% free good quality content, so that I can continue to take
-lessons with my teacher.
+"As a student, I want access to 100% free good quality content, so that I can continue to take
+lessons with my teacher." - All content is 100% free and makes no attempt to coax students from their current teachers.
 
-As a student, I want access to PDFs of lessons so I can print them and practice in my own time.
+"As a student, I want access to PDFs of lessons so I can print them and practice in my own time." - All lessons published have an external pdf to the lesson content.
 
-As a student, I want to be kept up to date about new releases and changes in the exam syllabus
-so that I can make sure what I am studying is relevant.
+"As a student, I want to be kept up to date about new releases and changes in the exam syllabus
+so that I can make sure what I am studying is relevant." - Every page presents students to subscribe to be kept up to date with the site with a simple email input.
 
-As a student, I want short videos, concise lessons so the point of the lesson does not get lost in
-endless lectures by the teacher.
+"As a student, I want short videos, concise lessons so the point of the lesson does not get lost in
+endless lectures by the teacher." Videos are kept short and to the point. They can be rewatched as often as needed. Text is kept to a minimum in an effort to be short and succint. 
 
-As a student I want more than just what to play, I want exercises to help me play the pieces
-better.
+"As a student I want more than just what to play, I want exercises to help me play the pieces
+better." - Each lesson comes with commentary from a teacher who knows and teaches the material as a profession. The teacher chose these specific problems as they come up with many students. 
 
-As a parent I want a safe space for my child to learn so that I don’t worry they are looking at
-inappropriate content or listening to foul language.
+"As a parent I want a safe space for my child to learn so that I don’t worry they are looking at
+inappropriate content or listening to foul language." - The teacher of the site teaches mostly children and is a mother herself. She has also double checked to make sure all content is appropriate, friendly and safe. 
 
-As a parent I want my child to have access to free content from a nice teacher as music lessons
-are extremely expensive.
+"As a parent I want my child to have access to free content from a nice teacher as music lessons
+are extremely expensive." - users are encouraged to get in contact with the teacher if they so wish. Every attempt is made to make sure language is age nuetral and friendly.
 
-As a teacher I want a website to recommend to my students that is relevant to what I teach in
+"As a teacher I want a website to recommend to my students that is relevant to what I teach in
 class so that they will have different perspectives, structured practice time, and a better chance
-of passing which will reflect positively on my own teaching experience.
+of passing which will reflect positively on my own teaching experience." - The website is a great reference for homework and makes no attempt to lure students away from teachers. 
 
-As a teacher, I want ideas that I can bring to my lessons because I don't always have time to
-prepare.
+"As a teacher, I want ideas that I can bring to my lessons because I don't always have time to
+prepare." Each lesson exercise can be expanded upon in a live classroom and provide many great foundations for lesson plans. 100% free for teachers also.
 
-As a music school, we want a reliable, living website we can refer students to so that they can
+"As a music school, we want a reliable, living website we can refer students to so that they can
 have extra practice at home so that they will get help passing exams which will reflect well on
-our school.
-
-### Outcome
-
-I feel as if every one of these needs is met on the websites down to the lesson content itself. There are constant reminders to subscribe to stay up to date and the lessons are relevant to the current syllabus. There are also pdfs, short videos and the content is 100% free with plans to be continuously updated in the future. 
+our school." - The site is up to date with current syllabus and the teacher on the site wishes to use as her own personal website in the future to release weekly content. The aim of the website is to help students get top marks for their pieces which are worth 60%  of the exam.
 
 # Testing 
 
