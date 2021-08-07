@@ -12,6 +12,7 @@ body {
     color: #2a2a2a;
     background-color: whitesmoke;
 }
+
 /* to hide the overflow caused by the piano nav bar on right hand side of page */
 body, html {
     overflow-x: hidden;
@@ -29,16 +30,12 @@ a {
     color: #2a2a2a;
 }
 
-.active-key a {
-    color: #C17B78;
-}
-
-
 /* logo */
 header {
     border-bottom: 1px solid #2a2a2a;
     background-color: rgb(241, 239, 239);
 }
+
 #logo {
     float: left;
     margin-left: 30px;
@@ -53,6 +50,11 @@ header {
     margin-bottom: 30px;
 }
 
+/*highlight current page link (small nav bar)*/
+.active {
+    border-bottom: 1px solid #C17B78;
+}
+
 #piano {
     display: flex;
     line-height: 75px;
@@ -62,8 +64,9 @@ header {
     margin-bottom: 30px;
 }
 
-.active {
-    border-bottom: 1px solid #C17B78;
+/* to underline and highlight the active page the user is on in the piano navbar*/
+.active-key a {
+    color: #C17B78;
 }
 
 .align-bottom {
@@ -86,10 +89,6 @@ header {
     box-shadow: inset 0 -2px 8px #777777;
 }
 
-.black-key:hover {
-    box-shadow: inset 0 0 10px whitesmoke;
-}
-
 .black-key {
     width: 50px;
     height: 75px;
@@ -98,6 +97,10 @@ header {
     background-color: black;
     z-index: 1;
     border-radius: 5px;
+}
+
+.black-key:hover {
+    box-shadow: inset 0 0 10px whitesmoke;
 }
 
 #key-1 { 
@@ -136,6 +139,7 @@ header {
     animation-fill-mode: forwards;
 }
 
+/* to hide overflow from image animation*/
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -172,6 +176,7 @@ header {
 
 /*about section/ethos*/
 
+/*wrapper*/
 #ethos {
     height: 600px;
     width: 100%;
@@ -192,6 +197,7 @@ header {
     font-style: italic;
 }
 
+/*children of ethos box*/
 #left-box, #right-box, #center-box {
     height: 300px;
     width: 300px;
@@ -199,6 +205,7 @@ header {
     display: inline-block;
     border-radius: 5px;
 }
+
 #left-box {
     position: relative;
     left: 10px;
@@ -233,6 +240,7 @@ header {
     font-size: 500%
 }
 
+/*subscribe section input*/
 .email-input {
     background-color: rgb(199, 199, 199);
     border-radius: 10%;
@@ -278,6 +286,7 @@ footer {
 
 /*Lessons landing*/
 
+/*wrapper*/
 .lesson-container-box {
     display: flex;
     justify-content: center;
@@ -329,6 +338,7 @@ footer {
     box-shadow: inset 0 0 20px #777;
 }
 
+/*lesson boxes sub list A.B.C*/
 .list-select {
     font-size: larger;
 }
@@ -343,21 +353,25 @@ footer {
 
 /* lessons-main */
 
+/*directory path is mostly there to provide easier navigation at smaller screen width when side nav bar is not displayed*/
 #directory-path {
     position: absolute;
     top: 150px;
     left: 5%;
 }
+
 #directory-path a {
     text-decoration: none;
     color: #6598C2;
 }
 
+/*wrap lesson and side nav bar*/
 #lesson-wrapper {
     display: flex;
     margin-bottom: 100px;
 }
 
+/* side nav bar*/
 #song-list {
     width: 15%;
     margin: 0 5%;
@@ -391,6 +405,7 @@ footer {
     border-bottom: 1px solid #C17B78; 
 }
 
+/*lesson content section - with information on song, a video iframe, images and a pdf*/
 #lesson-content {
     width: 70%;
     height: 600px;
@@ -421,6 +436,7 @@ iframe {
     margin: 0 auto;
 }
 
+/*pictures*/
 #practice-exercises {
     width: 90%;
     margin-right: 5%;
@@ -435,10 +451,12 @@ iframe {
     cursor: pointer;
 }
 
+/* next and previous button provide easier navigation especially at lower screen width*/
 #next-previous {
     position: relative;
     left: 70%; bottom: 50px;
 }
+
 .next {
     text-decoration: none;
     padding: 15px;
@@ -469,21 +487,23 @@ iframe {
 #head-shot-wrapper {
     margin: 0 auto;
     width: 100%;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 #head-shot {
     width: 225px;
     height: 175px;
     border-radius: 50%;
     border: 3px solid #6598C2;
 }
+/*wrapper for text*/
 
 #about-info {
     width: 100%;
     margin: 0 auto 75px;
     text-align: center;
 }
+
 #about-info p {
     width: 80%;
     text-align: center;
@@ -491,6 +511,7 @@ iframe {
     letter-spacing: 1px;
 }
 
+/* to help subscription link stand out - links to homepage ethos section subscription box*/
 .sub-link {
     color: #C17B78;
     font-size: larger;
@@ -507,7 +528,8 @@ iframe {
         width: 100%;
     }
 }
-
+ 
+/* site display changes a lot here*/
 @media screen and (max-width: 900px) {
 
     #logo {
@@ -528,7 +550,7 @@ iframe {
         width: 50%;
         height: 150px;
     }
-
+    /* to hide piano nav bar and display the smaller nav bar*/
     #piano {
         display: none;
     }
@@ -566,6 +588,7 @@ iframe {
         font-size: medium;
     }
 
+    /*the ethos section boxes are displayed like regular block level divs from here*/
     #ethos {
         width: 100%;
         height: auto;
