@@ -38,14 +38,17 @@ A simple layout free from too much text to appeal to a broad range of ages.
 <br>
 <br>
 <img src="assets/images/pno-nav.png">
-At smaller screen widths, the piano makes the navbar look too cluttered, so a new smaller, sleeker nav bar will appear in its place to compensate for this. It is also fully functional and provides the same links. It is the same on each page. 
+
+- At smaller screen widths, the piano makes the navbar look too cluttered, so a new smaller, sleeker nav bar will appear in its place to compensate for this. It is also fully functional and provides the same links. It is the same on each page. 
 <img src="assets/images/nav-small.png">
 <br>
 <br>
+
 - The home page hero image has a great animation that I feel shows the philosophy of the website very well. It will begin on the piano and gradually move to the right to focus on the student. I did not like this effect so much at smaller screen widths, and so on mobile devices, the image is static. 
 <img src="assets/images/young-student-hero.jpg">
 <br>
 <br>
+
 - This section of the home page uses 3 boxes to convey the basic ethos of the website. The center box is a dark pink taken from the hero image. I put this color into the adobe color wheel and selected triad to get another 2 complimentary colors. The left is a green and the right is a blue.
 - The information in the left box links to the about section. The right box links to the lesson landing page. The center box lets the user subscribe for notifications on future lessons. 
 - The 3 boxes aim to reinforce the idea that the content is free and regular. It also allows the user to navigate without scrolling back up. They are responsive.
@@ -250,7 +253,7 @@ How to clone repository
 ## Content
 
 ### Text
-- lesson exercises written by my chenyang zhao using 
+- lesson exercises written by chenyang zhao 
 - lesson song background info taken from [ABRSM piano grade books](https://shop.abrsm.org/shop/ucat/101858)
 - all other text was by me 
 
