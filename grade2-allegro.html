@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for piano students who are preparing for ABRSM exams">
+    <meta name="keywords" content="piano, ABRSM, practice piano, piano lessons, practice ABRSM">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>ABRSM Piano Studio</title>
+</head>
+
+<body>
+    <header>
+        <!--logo-->
+        <div id="logo"> 
+            <a href="index.html">
+                <h1>ABRSM Piano Studio</h1>
+            </a>
+        </div>
+
+        <!-- small nav bar to appear at smaller screen width-->
+        <nav>
+            <div id="small-nav-wrapper">
+                <ul id="small-nav-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="lesson-landing-page.html" class="active">Lessons</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+
+             <!--responsive piano nav bar to appear at larger screen width-->
+            <div id="piano">
+                <div onclick="location.href='index.html';" id="key-1" class="white-key">
+                    <div class="align-bottom"><a style="padding-left: 10px;" href="index.html">Home</a></div>
+                </div>
+                <div id="key-2" class="black-key"></div>
+                <div onclick="location.href='lesson-landing-page.html';" id="key-3" class="white-key">
+                    <div class="active-key align-bottom"><a style="padding-left: 4px;" href="lesson-landing-page.html">Lessons</a></div>
+                </div>
+                <div id="key-4" class="black-key"></div>
+                <div onclick="location.href='about.html';" id="key-5" class="white-key">
+                    <div class="align-bottom"><a style="padding-left: 8px;" href="about.html">About</a></div>
+                </div>
+            </div>
+        </nav> 
+    </header>
+
+            <!--Main lesson content-->
+        <section>
+            <div id="directory-path">
+                <a href="lesson-landing-page.html">Lessons</a> > <span>Grade 2 > Allegro</span>
+            </div>
+                <div id="lesson-outer">
+                    <div id="lesson-wrapper">
+                        <!--Side nav bar for pieces. It will not display at lower screen width-->
+                        <div id="song-list">
+                                <h1>Pieces</h1>
+                            <ul>
+                                <li>List A
+                                    <ul>
+                                        <li><a href="grade2-allegro.html"><p class="active">Allegro</p></a></li>
+                                    </ul>
+                                </li>
+                                <li>List B
+                                    <ul>
+                                        <li><a href="#"><p>#</p></a></li>
+                                    </ul>
+
+                                </li>
+                                <li>List C
+                                    <ul>
+                                        <li><a href="#"><p>#</p></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--Main lesson content. An overflow scrollbox is used for larger screens to keep height inline with side nav bar.
+                        The scrollbox will disapear along with the nav side bar at lower screen width as there will be no height requirement for content -->
+                        <div id="lesson-content">
+                            <h1 id="song-title">Allegro</h1>
+                            <br>
+                            <h2>Thomas Attwood</h2>
+                            <br>
+                            <p>
+                                Thomas Attwood was born in 1765 in England. He studied with Mozart in Naples and later in his life when he returned to England he 
+                                became the music tutor to the royal family.
+                            </p>
+                            <br>
+                            <p>
+                                His melodious style is very similar to Mozart. This Allegro is taken from a book titled lessons which shows it was made for learning 
+                                purposes.
+                            </p>
+                            <br>
+                            <p>
+                                You can use the video to listen and follow along with the sheet music and to learn the correct fingerings. 
+                            </p>
+                            <br>
+                            <br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/97EkZzkFxD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <br>
+                            <br>
+                            <h2>How to play this song</h2>
+                            <br>
+                            <h3>Be seven!</h3>
+                            <br>
+                            <p>Remember that Mozart was only seven years old when he wrote this song. Be giddy, playful and cheeky to get in the right frame of mind to play this piece.</p>
+                            <br>
+                            <h3>Hand Independence</h3>
+                            <p>Split your hands up. Practice your right hand first, then your left. When you are ready put both of them together.</p>
+                            <br>
+                            <figure>
+                                <img class="big-example-pic" src="assets/images/minuet-rh.PNG" alt="Minuet in C right hand part">
+                                <figcaption>Right hand.</figcaption>
+                            </figure>
+                            <br>
+                            <figure>
+                                <img class="big-example-pic" src="assets/images/minuet-lh.png" alt="Minuet in C left hand part">
+                                <figcaption>Left hand.</figcaption>
+                            </figure>
+                            <br>
+                            <h3>Fingerings</h3>
+                            <br>
+                            <p>Pay attention to your ABRSM score. The correct fingerings are printed on top of the bar. Use these fingerings for your exam.</p>
+                            <br>
+                            <h3>Legato</h3>
+                            <p>Pay attention to the legato marks on your score in bars 1, 3, 9, 11. You must practice pressing one hand down while lifting the other back up. </p>
+                            <br>
+                            <figure>
+                                <img src="assets/images/minuet-legato.png" alt="bar 1 of minuet in c">
+                                <figcaption>Bar 1 legato</figcaption>
+                            </figure>
+                            <br>
+                            <div id="pdf" onclick="window.open('assets/pdf/minuet-in-c.pdf')">
+                                <h1><a href="assets/pdf/minuet-in-c.pdf">Lesson PDF</a><i class="fas fa-file-alt"></i></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="next-previous">
+                        <div>
+                            <a href="grade1-melodie.html" class="next">Next &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--Footer section containing social media links-->
+    <footer>
+        <div id="footer-box">
+            <ul id="social-links">
+            <li class="big-icon">
+                <a href="https://www.youtube.com/channel/UCRjkjxr1ewm4YqGrCAJzGKA/featured" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li class="big-icon">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="big-icon">
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a52bdf2a95.js" crossorigin="anonymous"></script>
+</body>
+</html>
+

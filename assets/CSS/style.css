@@ -314,6 +314,12 @@ footer {
     padding: 10px;
 }
 
+.center-lesson-box li {
+    list-style-type: none;
+    line-height: 30px;
+    padding: 10px;
+}
+
 .center-lesson-box {
     background-color: #C17B78;
 }
