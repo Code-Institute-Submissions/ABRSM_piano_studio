@@ -126,7 +126,7 @@ returned no bugs and responsivness was very good.
 
 [Opera](www.opera.com) The only issue I can find in opera is at 300px screen width the logo will briefly overlap the nav menu. It will fix again aroun 290px
 
-[Edge] The only difference I can find here is that PDF does not open in new tab but instead in its own window which I do not think is very good for the user experience.
+[Edge](https://www.microsoft.com/en-us/edge) The only difference I can find here is that PDF does not open in new tab but instead in its own window which I do not think is very good for the user experience.
 
 # Bugs 
 
