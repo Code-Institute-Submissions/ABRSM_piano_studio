@@ -57,7 +57,7 @@ endless lectures by the teacher.
 - As a student I want more than just what to play, I want exercises to help me play the pieces
 better.
 
-  - each lesson comes with its own example exercises to practice in the students own time. They are from a teacher who teaches the subject and based off common mistakes she encounters often.
+  - each lesson comes with its own example exercises or tips to practice in the students own time. They are from a teacher who teaches the subject and based off common mistakes she encounters often.
 
 - As a parent I want a safe space for my child to learn so that I don’t worry they are looking at
 inappropriate content or listening to foul language.
