@@ -443,7 +443,7 @@ iframe {
 }
 
 /*pictures*/
-#practice-exercises {
+.practice-exercises {
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
@@ -636,7 +636,7 @@ iframe {
     }
 
     .big-example-pic {
-        width: 90vw;
+        width: 80vw;
     }
 
     #next-previous {
