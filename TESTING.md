@@ -87,13 +87,35 @@ our school.
   - The lessons are specifically designed for students who need to pass exams.
 
 # Responsivness
-I included a lot of media queries to handle responsivness at all screen widths and can not find any major issues. 
+I included a lot of media queries to handle responsivness at all screen widths and can not find any major issues. The main break point is at 900px and most layout changes will happen here.
 
+Videos of each page being tested for responsivness:
+- [Home Page](https://youtu.be/_Oz8P8lBNGQ)
+- [Lesson Landing Page](https://youtu.be/k1Jt58bt__k)
+- [Lesson Page](https://youtu.be/kexqcdu05E8)
+- [About Page](https://youtu.be/ROMKPScvxoU)
 ## Home page
-<video width="320" height="240" controls>
-  <source src="assets/testing/homepage-responsive.webm" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+At desktop view the Nav bar is set to the right, the logo to the left. The hero image takes up the width of the screen and becomes static at lower screen width and changes shape to a circle for phone view width.
+
+The welcome text is centered and responsive changing size at smaller screen widths. 
+
+The 3 boxes are wrapped in a flex container. They are relatively positioned to get the effect of the middle box being raised on top of the two. At 900px breakpoint this effect will change to 3 rectangles simply positioned on top of each other. 
+
+## Landing Page
+
+The same consistant color scheme is found her for the boxes also. They are in a flex container and fully responsive. At lower screen widths they take on the style applied to the home page boxes. 3 rectangles stacked on top of each other. 
+
+## Lesson Page
+
+BUG: The directory folder nav link ends up in the header and I was not able to lower this without causing too many major responsivness issues. I left it with a bit of bottom margin to make it look as if it is in the header instead which I am happy with. 
+
+The left side nav bar will not display at lower screen widths. 
+
+The lesson content scroll box will dissapear and lesson will fill length of page at the same breakpoint as side nav bar dissapearing. 
+
+## About 
+
+The about page is fully responsive. It is mostly centered text and was easy to make responsive. The picture is also centered and responsive. 
 
 # Browser Compatibility
 
