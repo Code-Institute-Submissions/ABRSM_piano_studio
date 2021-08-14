@@ -131,13 +131,13 @@ returned no bugs and responsivness was very good.
 # Bugs 
 
 - Clickable whitespace to the right hand side of piano nav bar.
-- - This was the hardest bug to fix as I could not find a solution online. I added display relative without any values to the div containing the first key and it solved the issue. I stumbled upon this fix by accident and have no idea why it worked. 
+  - This was the hardest bug to fix as I could not find a solution online. I added display relative without any values to the div containing the first key and it solved the issue. I stumbled upon this fix by accident and have no idea why it worked. 
 
 - White space to the right hand side of page. 
-- - A post on stack overflow told me to add overflow hidden to the html body. 
+  - A post on stack overflow told me to add overflow hidden to the html body. 
 
 - Uneven boxes 
-- - I learnt about flexbox and when I implimented it into the site it became much more responsive and divs were all aligned evenly. 
+  - I learnt about flexbox and when I implimented it into the site it became much more responsive and divs were all aligned evenly. 
 
 
 
