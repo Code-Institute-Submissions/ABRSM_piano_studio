@@ -95,7 +95,7 @@ Videos of each page being tested for responsivness:
 - [Lesson Page](https://youtu.be/kexqcdu05E8)
 - [About Page](https://youtu.be/ROMKPScvxoU)
 ## Home page
-At desktop view the Nav bar is set to the right, the logo to the left. The hero image takes up the width of the screen and becomes static at lower screen width and changes shape to a circle for phone view width.
+At desktop view the Nav bar is set to the right, the logo to the left, at lower screen width these will be centered and links spaced evenly. The hero image takes up the width of the screen and becomes static at lower screen width and changes shape to a circle for phone view width. 
 
 The welcome text is centered and responsive changing size at smaller screen widths. 
 
@@ -119,5 +119,25 @@ The about page is fully responsive. It is mostly centered text and was easy to m
 
 # Browser Compatibility
 
-# Unfixed bugs 
+[Google Chrome](https://www.google.com/chrome/?brand=FHFK&gclid=CjwKCAjw092IBhAwEiwAxR1lRnrDJkW2rc2m-_DsqG2ISAAChH0tbKgopfm-3BMuide3ikPssZgvWhoCsVUQAvD_BwE&gclsrc=aw.ds)
+returned no bugs and responsivness was very good. 
+
+[Firefox](https://www.mozilla.org/en-US/firefox/) had no issues and the only difference I could find was in the subscribe box on the home page. The border radius looks more pronounced and rougher here. 
+
+[Opera](www.opera.com) The only issue I can find in opera is at 300px screen width the logo will briefly overlap the nav menu. It will fix again aroun 290px
+
+[Edge] The only difference I can find here is that PDF does not open in new tab but instead in its own window which I do not think is very good for the user experience.
+
+# Bugs 
+
+- Clickable whitespace to the right hand side of piano nav bar.
+- - This was the hardest bug to fix as I could not find a solution online. I added display relative without any values to the div containing the first key and it solved the issue. I stumbled upon this fix by accident and have no idea why it worked. 
+
+- White space to the right hand side of page. 
+- - A post on stack overflow told me to add overflow hidden to the html body. 
+
+- Uneven boxes 
+- - I learnt about flexbox and when I implimented it into the site it became much more responsive and divs were all aligned evenly. 
+
+
 
