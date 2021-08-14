@@ -28,12 +28,55 @@ A simple layout free from too much text to appeal to a broad range of ages.
 - A lesson landing page to provide neat navigation to what could easily become an unruly mess due to the amount of content that will eventually be on the site. Each grade has its own box with a song list hyperlink. 
 
 - a very simple about page. Information about the teacher and the exam can be found here and it is where the bulk of text on the main 3 pages can be found. 
+<br>
 
-# User Journey
+<img src="assets/images/site-architecture.png">
+<br>
+<br>
 
+# Features 
 
+## General Overview
 
- Home Page
+The 3 colors used extensivly in the site are:
+
+ #C17B78 (taken from the hero image using [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) )
+
+ #6598C2 - a blue hue 
+
+ #78C292 - a green hue
+
+ Colors were chosen by using [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+
+The layout of the site will change at different screen widths. On large desktops there is a piano navigation bar in the top right.
+The logo for the site is in the top left.
+
+A simple footer with social media links is also on each page at the bottom.
+
+### Homepage
+
+The home page features a hero image of a young student with an animation.
+
+Under this is the site ethos section. 3 boxes draw the users attention to subscribe, the about section and lesson page. There is also link supplied for students to learn about the exam. 
+
+The simple layout and minimal text makes the site user friendlyt for all ages. 
+
+### Lesson Landing Page 
+
+A simple page with boxes like the home page give consistancy to the site. The lessons and song list are all navigatable from each box.
+
+### Lesson Page 
+The main lesson page is consistant for each lesson. The colors present in the boxes of the home page and lesson landing page are present here in a side navigation section, lesson content section and next/previous buttons.
+
+The side nav bar makes navigating the lessons easy. There is also a directory above this and the next/previous buttons will keep navigation at smaller screen widths smooth. 
+
+The lesson content is in its own scrollbox to keep the page neat and tidy. 
+
+### About
+The about page is the most text heavy page. It gives a friendly introduction of the teacher and some info about the exam structure. It also includes an external link to the exam body for a more in depth explanation of the exam.
+
+## Features In depth
+ ### Home Page
 - In keeping with the theme of the website the navbar is in the style of a piano. Each white key is a fully functional navigation link. It is the same on each page and will allow users to easily navigate the site. It links to the home page, lesson landing page, and the about page. 
 <br>
 <br>
@@ -57,14 +100,14 @@ A simple layout free from too much text to appeal to a broad range of ages.
 - The footer section is very straightforward and includes links to youtube, Facebook, and Twitter. It aims to give the teacher on the website more exposure on the internet. 
 <img src="assets/images/footer.png">
 
-Lesson Landing Page
+### Lesson Landing Page
 
 - information is provided for students that are unfamiliar with the exam structure. It is a link to the about section. I found this the best way to keep as much of the website clutter-free from too much text for younger users. It also gives another opportunity to subscribe by linking back to the box on the home page.
 
 - 3 boxes with the same colors already seen on the homepage with links to the grade and specific song list to make navigating to the page the student needs easier and as painless as possible. There is a hover shadow effect on these boxes also. For color consistency, I added 2 yet to be published lessons. In the future it would be a good idea to keep this consistent by having boxes that say coming soon, which also reinforces the idea that content is regular, the site is living, and that students should subscribe. 
 <img src="assets/images/lesson-landing.png">
 
-Lesson page 
+### Lesson page 
 
 - The sidebar gives a good layout and access to any lesson the user wishes to navigate to. The directory also tells the user exactly where they are, this also links back to the lesson landing page. Very useful for smaller screen width when the side navbar will not be displayed.
 <img src="assets/images/lesson-side.png">
@@ -78,10 +121,22 @@ Next & Previous buttons
 - simple responsive buttons meant to make navigation easier especially at smaller screen widths when the lesson sidebar is gone. Also keeps coloring consistent. 
 <img src="assets/images/next-pre.png">
 
-About page
+### About page
 
 - The about page is very simple and has the bulk of text on the website. It is meant to give a friendly introduction to the teacher with profile pic and info. It also has a summary of exam requirements and an external link to the official website of ABRSM. The language is kept as simple as possible in case kids want to read it but it is primarily meant for adults, especially parents.
 <img src="assets/images/about.png">
+
+# Features left to Implement
+
+- livestream page. It is a good way to keep content relevant on the site but is too much work when the core video lessons are not completed. To record every song at a minimum of 3 a week would take most of the year. 
+- video exchange and sign-ins. This would be a great way for students to interact with the teacher. Upload their own videos and get a reply from the teacher. It is just not feasible at the moment because I don't know how to make a site that students can log into and have access to, let alone upload videos. 
+
+# Wireframes
+
+These are the wireframes for the site. 
+- [Desktop](assets/wireframes/abrsm-desktop.pdf)
+- [Tablet](assets/wireframes/abrsm-tablet.pdf)
+- [Phone](assets/wireframes/abrsm-phone.pdf)
 
 # User Stories 
 
@@ -125,48 +180,6 @@ Parents need not worry. The lessons are free, there is no mature content on the 
 
 schools and other teachers would also be happy as the site makes no attempt to coerce students away from their current school/teacehr. Lessons are clearly supplimental with the need for a private teacher if an in depth explanation is needed. The site is free and up to date with the current syllabus helping students to pass. Lesson content can also supply teachers with ideas for their own lessons.
 
-# Features
- The 3 colors used extensivly in the site are:
-
- #C17B78 (taken from the hero image using [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) )
-
- #6598C2 - a blue hue 
-
- #78C292 - a green hue
-
- Colors were chosen by using [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
-
-The layout of the site will change at different screen widths. On large desktops there is a piano navigation bar in the top right.
-The logo for the site is in the top left.
-
-A simple footer with social media links is also on each page at the bottom.
-
-## Homepage
-
-The home page features a hero image of a young student with an animation.
-
-Under this is the site ethos section. 3 boxes draw the users attention to subscribe, the about section and lesson page. There is also link supplied for students to learn about the exam. 
-
-The simple layout and minimal text makes the site user friendlyt for all ages. 
-
-## Lesson Landing Page 
-
-A simple page with boxes like the home page give consistancy to the site. The lessons and song list are all navigatable from each box.
-
-## Lesson Page 
-The main lesson page is consistant for each lesson. The colors present in the boxes of the home page and lesson landing page are present here in a side navigation section, lesson content section and next/previous buttons.
-
-The side nav bar makes navigating the lessons easy. There is also a directory above this and the next/previous buttons will keep navigation at smaller screen widths smooth. 
-
-The lesson content is in its own scrollbox to keep the page neat and tidy. 
-
-## About
-The about page is the most text heavy page. It gives a friendly introduction of the teacher and some info about the exam structure. It also includes an external link to the exam body for a more in depth explanation of the exam.
-
-# Features left to Implement
-
-- livestream page. It is a good way to keep content relevant on the site but is too much work when the core video lessons are not completed. To record every song at a minimum of 3 a week would take most of the year. 
-- video exchange and sign-ins. This would be a great way for students to interact with the teacher. Upload their own videos and get a reply from the teacher. It is just not feasible at the moment because I don't know how to make a site that students can log into and have access to, let alone upload videos. 
 
 # Technologies Used
 
