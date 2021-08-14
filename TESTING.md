@@ -1,30 +1,30 @@
-# Testing 
+# Validator testing 
 
-The hardest thing to get working on this site was the boxes and piano navbar. It was very difficult to have everything centered and responsive. I discovered flexbox and it helped with this. Also having different layouts for the site on mobile and tablet was a lot of extra work but helped keep the site consistently smooth and responsive. 
+## HTML 
 
-I had to include a lot of media queries to get the site responsive enough but I feel it was worth the effort. 
+There were no errors found on HTML. A few warnings were left in but this was a design choice. Specifically the lesson content page needed multiple h1 headings.
 
-The piano nav bar had a bug that was very difficult to fix. the whitespace to the right of it was clickable and wouldn't click back to the home page. I managed to fix this by making the home button position relative even though I didn't move it. 
+- Home page
 
-There was also a lot of whitespace leftover on the right-hand side of the website. I dealt with this by hiding the overflow. It made positioning other elements at lower screen widths very tedious and difficult but it was worth the effort as the site is very responsive now. 
+<img src="assets/testing/test-index.png">
 
-The site was tested on Google Chrome - Mozilla Firefox - Safari - Opera - All without issue. 
+- Lesson Landing Page
 
-## Validator testing 
+<img src="assets/testing/test-landing.png">
 
-HTML 
+- Lesson Page
 
-No errors on W3 validator
-- [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Findex.html)
-- [Lesson Landing](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Flesson-landing-page.html) 
-- [Lesson](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Fgrade1-minuet.html)
-- [About](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxiaoniuniu89.github.io%2FABRSM_piano_studio%2Fabout.html)
+<img src="assets/testing/test-lesson.png">
 
-CSS
+- About page
+
+<img src="assets/testing/test-about.png">
+
+## CSS
 
 No errors on the W3C jigsaw validator
 
-<img src="assets/images/css-validator.png">
+<img src="assets/testing/css-validator.png">
 
 
 ## Unfixed bugs 
