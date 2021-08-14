@@ -90,6 +90,10 @@ our school.
 I included a lot of media queries to handle responsivness at all screen widths and can not find any major issues. 
 
 ## Home page
+<video width="320" height="240" controls>
+  <source src="assets/testing/homepage-responsive.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 # Browser Compatibility
 
