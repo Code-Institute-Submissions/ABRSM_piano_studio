@@ -104,7 +104,7 @@ The about page is the most text heavy page. It gives a friendly introduction of 
 
 - information is provided for students that are unfamiliar with the exam structure. It is a link to the about section. I found this the best way to keep as much of the website clutter-free from too much text for younger users. It also gives another opportunity to subscribe by linking back to the box on the home page.
 
-- 3 boxes with the same colors already seen on the homepage with links to the grade and specific song list to make navigating to the page the student needs easier and as painless as possible. There is a hover shadow effect on these boxes also. For color consistency, I added 2 yet to be published lessons. In the future it would be a good idea to keep this consistent by having boxes that say coming soon, which also reinforces the idea that content is regular, the site is living, and that students should subscribe. 
+- 3 boxes with the same colors already seen on the homepage with links to the grade and specific song list to make navigating to the page the student needs easier and as painless as possible. There is a hover shadow effect on these boxes also. For color consistency, I added a third yet to be published lessons. In the future it would be a good idea to keep this consistent by having boxes that say coming soon, perhaps even with a release date, which also reinforces the idea that content is regular, the site is living, and that students should subscribe. 
 <img src="assets/images/lesson-landing.png">
 
 ### Lesson page 
