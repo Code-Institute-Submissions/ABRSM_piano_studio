@@ -275,6 +275,7 @@ How to clone repository
 - Hero image on home page taken from [unsplash](https://unsplash.com/photos/K7HEuGfJFIM)
 - Music example pictures made by me
 - About photo taken by me
+- cockatoo jazz 8th note picture from [op forum](https://op-forums.com/t/op1-beat-quintuplets-septuplets-question/19378)
 
 #### Videos
 - All videos shot by chenyang Zhao
